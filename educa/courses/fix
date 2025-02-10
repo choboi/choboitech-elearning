@@ -1,0 +1,221 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Data Analyst",
+    "slug": "data-analyst"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Software Engineering",
+    "slug": "software-engineering"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Artificial Interlegence",
+    "slug": "aArtificial-interlegence"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 5,
+  "fields": {
+    "title": "Cyber Security",
+    "slug": "cyber-security"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 6,
+  "fields": {
+    "title": "Emerging Technology",
+    "slug": "emerging-technology"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 4,
+    "title": "Introduction to AI",
+    "slug": "iIntroduction-to-ai",
+    "overview": "Introduction-to-ai",
+    "created": "2025-01-06T14:42:34.969Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "subject": 5,
+    "title": "Introduction to Cyber Security",
+    "slug": "Introduction-to-cyber-security",
+    "overview": "Introduction to Cyber Security",
+    "created": "2025-01-06T14:45:21.680Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 3,
+  "fields": {
+    "owner": 1,
+    "subject": 2,
+    "title": "Introducation to Data Analyst",
+    "slug": "introducation-to-data-analyst",
+    "overview": "Introducation to Data Analyst",
+    "created": "2025-01-06T14:49:21.417Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 4,
+  "fields": {
+    "owner": 1,
+    "subject": 6,
+    "title": "Introducation to Emerging Technology",
+    "slug": "introducation-to-emerging-technology",
+    "overview": "Introducation to Emerging Technology",
+    "created": "2025-01-06T14:53:02.993Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 5,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "Introducation to Programming",
+    "slug": "introducation-to-programming",
+    "overview": "Introducation to Programming",
+    "created": "2025-01-06T14:54:36.726Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 6,
+  "fields": {
+    "owner": 1,
+    "subject": 3,
+    "title": "Introducation to Software Engineering",
+    "slug": "introducation-to-software-engineering",
+    "overview": "Introducation to Software Engineering",
+    "created": "2025-01-06T14:55:54.570Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "Advance AI",
+    "description": "Advance AI Tools"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 2,
+    "title": "Ethics of Hacking",
+    "description": "Ethical Hacking"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "course": 2,
+    "title": "Type of Hacking",
+    "description": ""
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 4,
+  "fields": {
+    "course": 3,
+    "title": "Data Analyst tools",
+    "description": "Excel, Power BI, SPSS, Tableua, Mysql, Postgres etc"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 5,
+  "fields": {
+    "course": 3,
+    "title": "Data Modelling",
+    "description": "Data Modelling and Cleaning"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 6,
+  "fields": {
+    "course": 4,
+    "title": "Introduction to Drone Technology",
+    "description": "How to manage Drone"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 7,
+  "fields": {
+    "course": 4,
+    "title": "Introduction of 3D printing",
+    "description": "how to use 3D printing"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 8,
+  "fields": {
+    "course": 4,
+    "title": "Introduction to VR",
+    "description": "How to use VR"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 9,
+  "fields": {
+    "course": 5,
+    "title": "Programming using Javascript",
+    "description": "How to develop app using Javascript"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 10,
+  "fields": {
+    "course": 5,
+    "title": "Introduction React JS",
+    "description": ""
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 11,
+  "fields": {
+    "course": 6,
+    "title": "what is software engineering",
+    "description": "software engineering life cycle"
+  }
+}
+]
